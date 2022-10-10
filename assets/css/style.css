@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+header .line{
+    background-color:#117050 ;
+    height: 10px;
+}
+.container{
+    max-width: 1140px; /*displai de conainer computador*/
+    margin: auto;
+ 
+}
+.header--area{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header--left img{
+    width: 64px;
+    height: 64px;
+}
+.header--searc input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999999;
+    outline: 0; /* remover desfoque*/
+    max-width: 220px;
+
+}
+.header--search button{
+    border: 0;
+    background:transparent;
+    margin-left: -30px;
+}
+.header--search button img{
+    width: 16px;
+    height: 16px;
+}
