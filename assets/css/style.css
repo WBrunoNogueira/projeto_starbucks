@@ -19,17 +19,27 @@ header .line{
     justify-content: space-between;
     align-items: center;
 }
+.header--right{
+    display: flex;
+    align-items: center;
+}
 .header--left img{
     width: 64px;
     height: 64px;
 }
-.header--searc input{
+.header--search input{
     font-size: 16px;
-    padding: 7px 10px;
+    padding: 8px 15px;
     border: 1px solid #999999;
     outline: 0; /* remover desfoque*/
-    max-width: 220px;
+    width: 100%;
+    max-width: 250px;
+    cursor: pointer;
 
+}
+.header--search form{
+    display: flex;
+    align-items: center;
 }
 .header--search button{
     border: 0;
@@ -37,6 +47,15 @@ header .line{
     margin-left: -30px;
 }
 .header--search button img{
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
+}
+
+.header--menu{
+    margin-left: 50px;
+}
+.header--menu img{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
 }
