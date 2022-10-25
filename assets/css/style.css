@@ -271,6 +271,9 @@ footer{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .area3--img1{
+        background-position: center;
+    }
 }
 @media (min-width:426px) and (max-width:768px){
     .container{
@@ -286,6 +289,7 @@ footer{
     .area3{
         grid-template-columns: 3fr 2fr;
     }
+
 }
 @media (max-width:425px){
     .container{
