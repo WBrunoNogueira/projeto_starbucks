@@ -6,7 +6,7 @@ Projeto de layout responsivo utilizando conhecimentos em HTML E CSS
 
 ## View on the link:
 
-link
+[projeto_starbucks link](https://wbrunonogueira.github.io/projeto_starbucks/)
 
 ## Usage
 
